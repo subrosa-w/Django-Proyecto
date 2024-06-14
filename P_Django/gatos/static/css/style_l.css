@@ -1,0 +1,37 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 30%;
+  background: linear-gradient(80deg,#204173,#343a40);
+  height: 100vh;
+}
+
+h1,p,h2,h3,h4,h5,h6 {
+  color: rgb(0, 0, 0);
+  font-family:'Courier New', Courier, monospace; 
+}
+
+.main { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 100px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  text-align: left;
+}
+
+input {
+  position: relative;
+}
+
+#olvido {
+  position: relative;
+}
+
+#iniciosesion {
+  position: absolute;
+}

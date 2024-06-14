@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ayuda a un peludo</title>
+    <link rel="stylesheet" href="{% static 'css/style_l.css' %}" type="text/css">
+    <script src="{% static 'js/js.js' %}"></script>
+</head>
+
+<body>
+
+<div class="center">
+    <h1>login</h1>
+    <form action="post">
+        <div class="txt_field">
+            <input type="text"required>
+            <label>Usuario</label>
+        </div>
+        <div class="txt_field">
+            <input type="password"required>
+            <label>Contraseña</label>
+        </div>
+        <div class="pass">Forgot pass</div>
+        <input type="submit" value="Login">
+        <div class="signuo_link">
+            Not menber
+        </div>
+    </form>
+
+</div>
+
+</body>
+
+</html>
